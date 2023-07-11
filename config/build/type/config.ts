@@ -1,10 +1,10 @@
-
-type buildModeType = "development" | "production"
+type buildModeType = 'development' | 'production'
 
 interface BuildPath {
     entry:string,
     dist:string,
-    html:string
+    html:string,
+    src:string
 }
 export interface IEnv {
     mode:buildModeType,

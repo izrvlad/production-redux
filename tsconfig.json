@@ -1,13 +1,16 @@
 {
     "compilerOptions": {
-        "outDir": "./build/",
+        "outDir": "./dist/",
         "noImplicitAny": true,
-        "module": "es2022",
+        "module": "ESNext",
         "target": "es5",
         "jsx": "react-jsx",
         "allowJs": true,
         "moduleResolution": "node",
-
+        "baseUrl": ".",
+        "paths": {
+            "*": ["./src/*"]
+        },
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true
     },

@@ -1,0 +1,18 @@
+.SideBar {
+  position: relative;
+  width: var(--sidebar-width);
+  transition: width 300ms ease-in-out ;
+  background-color: var(--secondary-color);
+  height: calc(100vh - var(--navbar-height));
+}
+
+.collapsed {
+  width: var(--sidebar-colapsed-width);
+}
+
+.themeSwitcher {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 5;
+}
